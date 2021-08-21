@@ -7,3 +7,6 @@ You can install ImageMagick with this website. https://imagemagick.org/script/do
 Second, you need to install opneCV. 
 
 Lastly, you need to change directory path to yours.
+
+![palette](https://user-images.githubusercontent.com/51149024/130324534-11e1dbff-43b4-4576-89c6-5af9d1e8be84.png)
+
