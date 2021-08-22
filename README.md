@@ -4,7 +4,7 @@ This repository includes code to convert an image to a 3-color-image(Red,White,B
 First, you need to install ImageMagick.
 You can install ImageMagick with this website. https://imagemagick.org/script/download.php
 
-Second, you need to install opneCV. 
+Second, you need to install openCV. 
 
 Lastly, you need to change directory path to yours.
 
