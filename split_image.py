@@ -19,8 +19,11 @@ def ConvertRBW(filename):
     path = os.path.join(picdir, str(filename)+'.png')
     #print(path)
     print('remap file') 
-
-    os.system('magick ' + os.path.join(picdir, str(filename)+'.png') +'  +dither -remap palette.png ' + os.path.join(picdir, str(filename)) +'R.png')
+    
+    #picture, photo etc
+    os.system('magick ' + os.path.join(picdir, str(filename)+'.png') +'  -dither FloydSteinberg -define dither:diffusion-amount=66% -remap palette.png ' + os.path.join(picdir, str(filename)) +'R.png')
+    #text
+    #os.system('magick ' + os.path.join(picdir, str(filename)+'.png') +'  +dither -remap palette.png ' + os.path.join(picdir, str(filename)) +'R.png')
 
     nfilename = filename + 'R'
     npath = os.path.join(picdir, str(nfilename)+'.png')
